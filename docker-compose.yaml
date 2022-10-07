@@ -5,4 +5,4 @@ services:
     ports:
       - '8080:8080'
     volumes:
-      - '/mnt/sync/:/usr/local/tomcat/webapps/'
+      - '/home/ec2-user/sync/:/usr/local/tomcat/webapps/'
