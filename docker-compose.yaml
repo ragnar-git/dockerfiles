@@ -4,6 +4,5 @@ services:
     image: 'tomcat:9'
     ports:
       - '8080:8080'
-      - '9090:8080'
     volumes:
       - '/mnt/sync/:/usr/local/tomcat/webapps/'
