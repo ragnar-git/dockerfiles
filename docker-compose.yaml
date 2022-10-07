@@ -1,5 +1,4 @@
 version: '3'
-  service-two:
 services:
   service-one:
     image: 'tomcat:9'
